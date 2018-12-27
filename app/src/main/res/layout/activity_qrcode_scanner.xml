@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.common.QRCodeScannerActivity">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundDarkAss">
+
+
+
+</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/semi_regular_text_size"
+        android:text="Goto to Doobbi Application>\nOrder>Click on single order>\nShow Order QR code" />
+
+
+    <TextView
+        android:id="@+id/profileViewUpdateTV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="Please Hold On"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/regular_text_size"
+        />
+
+</RelativeLayout>
